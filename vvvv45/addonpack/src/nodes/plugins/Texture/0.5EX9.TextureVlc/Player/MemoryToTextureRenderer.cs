@@ -216,7 +216,7 @@ namespace VVVV.Nodes.Vlc.Player
 				foreach ( Device device in new List<Device>(device2DoubleTexture.Keys) ) {
 //					DoubleTexture t2;
 //					if (device2DoubleTexture.TryGetValue(device, out t2)) {
-					//Log( LogType.Debug, "SetNewSize on DoubleTexture (device " + t2.GetDevice().ComPointer.ToInt64() + "=" + deviceId + ", " + t2.GetWidth() + "x" + t2.GetHeight() +  ")" );
+						//Log( LogType.Debug, "SetNewSize on DoubleTexture (device " + t2.GetDevice().ComPointer.ToInt64() + "=" + deviceId + ", " + t2.GetWidth() + "x" + t2.GetHeight() +  ")" );
 //						int result = t2.SetNewSize(doubleBuffer.GetWidth(), doubleBuffer.GetHeight());
 //						success = success && (0 == result);
 //						if (result != 0) {
